@@ -2,7 +2,6 @@
 
 PlayAssist is a full-stack AI assistant that answers game-support and player-stats questions by **choosing and calling tools** instead of guessing. A React + TypeScript chat UI sits on a FastAPI backend that runs a LangChain tool-calling agent, and every tool call is shown in the UI so you can see how each answer was produced.
 
-> **Demo:** _add your deployed link here_  
 > **Player stats question with tool calls** (docs/chat-stats.png)
 > **Support question grounded in the knowledge base** (docs/chat-support.png)
 > **Unknown player** (docs/chat-notfound.png)
